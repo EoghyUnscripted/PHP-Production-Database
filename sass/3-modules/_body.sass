@@ -1,0 +1,77 @@
+.container
+  height: 100%
+  align-content: center
+
+.card
+  height: auto
+  margin-top: 50px
+  margin-bottom: 50px
+  width: auto
+  background-color: rgba(80,80,80,0.75) !important
+  color: #FFFFFF
+  @include respond-to($phone-ls)
+    max-height: 500px
+
+  @include respond-to($phone-pt)
+    max-height: 500px
+
+  @include respond-to($tablet-portrait)
+    max-height: 500px
+
+  @include respond-to($tablet-landscape)
+    max-height: 500px
+
+.card-body
+  overflow-y: scroll
+
+.input-group-prepend
+  span
+    width: auto
+    background-color: $accent0
+    color: white
+    border: 0
+
+.login_btn
+    background-color: $accent0
+    color: white
+    width: auto
+    margin: 3px
+
+.login_btn:hover
+    color: black
+    background-color: white
+
+.select_btn
+    background-color: $accent0
+    color: white
+    width: auto
+    margin: 3px
+
+.select_btn:hover
+    color: black
+    background-color: white
+
+.mgrselect_btn
+    background-color: $accent3
+    color: white
+    width: auto
+    margin: 3px
+
+.mgrselect_btn:hover
+    color: black
+    background-color: white
+
+.btn-group
+    margin: auto
+    display: flex
+    flex-direction: row
+
+.link-group
+  margin: auto
+  display: flex
+  flex-direction: row
+  justify-content: center
+
+.scroll
+  overflow: scroll
+  padding-bottom: 30px
